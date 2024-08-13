@@ -14,7 +14,7 @@ import '../screens/booking_module/model/save_payment_req.dart';
 import '../screens/shop/order/model/order_status_model.dart';
 import 'constants.dart';
 
-bool isporosenocheckProduct = DOMAIN_URL.contains("katya.site") || DOMAIN_URL.contains("innoquad.in");
+bool isporosenocheckProduct = DOMAIN_URL.contains("apps.iqonic.design/pawlly") || DOMAIN_URL.contains("innoquad.in");
 
 RxString selectedLanguageCode = DEFAULT_LANGUAGE.obs;
 RxBool isLoggedIn = false.obs;

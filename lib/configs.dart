@@ -8,7 +8,7 @@ const GREEK_LANGUAGE = 'el';
 const DASHBOARD_AUTO_SLIDER_SECOND = 5;
 
 ///Live Url
-const DOMAIN_URL = "https://katya.site";
+const DOMAIN_URL = "https://apps.iqonic.design/pawlly";
 
 const BASE_URL = '$DOMAIN_URL/api/';
 
