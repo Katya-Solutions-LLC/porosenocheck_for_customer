@@ -5,7 +5,7 @@ import 'language_ar.dart';
 import 'language_de.dart';
 import 'language_en.dart';
 import 'language_fr.dart';
-import 'language_hi.dart';
+// import 'language_hi.dart';
 import 'languages.dart';
 
 class AppLocalizations extends LocalizationsDelegate<BaseLanguage> {
@@ -18,8 +18,8 @@ class AppLocalizations extends LocalizationsDelegate<BaseLanguage> {
         return LanguageEn();
       case 'ar':
         return LanguageAr();
-      case 'hi':
-        return LanguageHi();
+      // case 'hi':
+      //   return LanguageHi();
       case 'fr':
         return LanguageFr();
       case 'de':
