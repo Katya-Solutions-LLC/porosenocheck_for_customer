@@ -77,4 +77,5 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'phonepe.intentsdk.android.release:IntentSDK:2.3.0'
     implementation 'com.google.android.gms:play-services-wallet:19.3.0'
+    implementation 'com.huawei.agconnect:agconnect-core:1.5.2.300'
 }
