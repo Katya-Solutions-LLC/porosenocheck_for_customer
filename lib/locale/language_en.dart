@@ -1424,10 +1424,10 @@ class LanguageEn extends BaseLanguage {
   String get myAddresses => 'My Addresses';
 
   @override
-  String get country => 'Country';
+  String get country => 'Country/Region';
 
   @override
-  String get selectCountry => 'Select Country';
+  String get selectCountry => 'Select Country/Region';
 
   @override
   String get state => 'State';
