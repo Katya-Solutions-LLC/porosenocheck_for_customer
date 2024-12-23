@@ -2,6 +2,10 @@
 
 Welcome to **Porosenochek** – the ultimate platform to transform your perception of pet care services. Designed with convenience, customization, and compassion at its core, Porosenochek is your all-in-one app for meeting your pet's needs effortlessly.
 
+https://api.codemagic.io/apps/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/status_badge.svg
+
+[![Codemagic build status](https://api.codemagic.io/apps/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/status_badge.svg)](https://codemagic.io/app/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/latest_build)
+
 ---
 
 ## 🌟 Features
@@ -52,6 +56,6 @@ Use the built-in continuous integration in GitLab.
 
 ### Download Porosenochek today and join a community of pet lovers who prioritize quality care and convenience! 🐶🐱
 
-*** Please, send US an E-Mail to support@rechain.email for the build instructions! 👻
+*** Please, send US an E-Mail to support@rechain.network for the build instructions! 👻
 
-Need help? 🤔 Email us! 👇 A Dmitry Sorokin production. All rights reserved. Powered by REChain ®️ 🪐 Copyright © 2019-2024 REChain, Inc REChain ® is a registered trademark hr@rechain.email p2p@rechain.email pr@rechain.email sorydima@rechain.email support@rechain.email sip@rechain.email music@rechain.email cfa@rechain.email anti@rechain.email mot_cfa@rechain.email rechainstore@rechain.email models@rechain.email dex@rechain.email email@rechain.email musicdapp@rechain.email pitomec@rechain.email Please allow anywhere from 1 to 5 business days for E-mail responses! 💌 Our Stats! 👀 At the end of 2023, the number of downloads from the Open-Source Places, Apple AppStore, Google Play Market, and the REChain.Store ✨ exceeded 29 million downloads. 😈 👀
+Copyright © 2019-2025 Need help? 🤔 Donate US! ⌛️ For tea, coffee! For the future of decentralized and distributed internet. We do cool and, in my opinion, useful things for the safety and security of users' personal data. And on a completely non-commercial basis! 😎 Email us! 👇 A Dmitry Sorokin production. All rights reserved. Powered by REChain ®️. 🪐 Copyright © 2019-2024 REChain, Inc REChain ® is a registered trademark support@rechain.network Please allow anywhere from 1 to 5 business days for E-mail responses! 💌 Our Stats! 👀 At the end of 2023, the number of downloads from the Open-Source Places, Apple AppStore, Google Play Market, and the REChain.Store, namely the Domestic application store from the REChain ®️ brand 🪐, а именно Отечественный магазин приложений от бренда REChain ®️ 🪐 ✨ exceeded 29 million downloads. 😈 👀
