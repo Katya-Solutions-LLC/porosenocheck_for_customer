@@ -2,9 +2,9 @@
 
 Welcome to **Porosenochek** – the ultimate platform to transform your perception of pet care services. Designed with convenience, customization, and compassion at its core, Porosenochek is your all-in-one app for meeting your pet's needs effortlessly.
 
-https://api.codemagic.io/apps/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/status_badge.svg
+[![Codemagic build status](https://api.codemagic.io/apps/67e7f92156563ffc20bacd69/67e7f92156563ffc20bacd68/status_badge.svg)](https://codemagic.io/app/67e7f92156563ffc20bacd69/67e7f92156563ffc20bacd68/latest_build)
 
-[![Codemagic build status](https://api.codemagic.io/apps/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/status_badge.svg)](https://codemagic.io/app/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/latest_build)
+[[![Codemagic build status](https://api.codemagic.io/apps/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/status_badge.svg)](https://codemagic.io/app/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/latest_build)](https://api.codemagic.io/apps/67e7f92156563ffc20bacd69/67e7f92156563ffc20bacd68/status_badge.svg)
 
 ---
 
