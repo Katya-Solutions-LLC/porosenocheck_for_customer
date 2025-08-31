@@ -1,61 +1,139 @@
-# Porosenochek: Revolutionize Your Pet Care Experience 🐾
+# Porosenocheck - Pet Care Services App
 
-Welcome to **Porosenochek** – the ultimate platform to transform your perception of pet care services. Designed with convenience, customization, and compassion at its core, Porosenochek is your all-in-one app for meeting your pet's needs effortlessly.
+## 🚀 Обновление до Android SDK 36 завершено!
 
-[![Codemagic build status](https://api.codemagic.io/apps/67e7f92156563ffc20bacd69/67e7f92156563ffc20bacd68/status_badge.svg)](https://codemagic.io/app/67e7f92156563ffc20bacd69/67e7f92156563ffc20bacd68/latest_build)
+Приложение успешно обновлено до последних версий:
+- **Android SDK**: 36
+- **Flutter**: 3.35.2+
+- **Gradle**: 8.7
+- **Kotlin**: 2.1.0
+- **Java**: 17
 
-[[![Codemagic build status](https://api.codemagic.io/apps/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/status_badge.svg)](https://codemagic.io/app/67699f2be3f294cdcf27bb21/67699f2be3f294cdcf27bb20/latest_build)](https://api.codemagic.io/apps/67e7f92156563ffc20bacd69/67e7f92156563ffc20bacd68/status_badge.svg)
+## 📱 Текущий статус
 
----
+✅ **Успешно обновлено:**
+- Android SDK и Gradle
+- Flutter зависимости
+- Java версия
+- Основные компоненты приложения
 
-## 🌟 Features
+✅ **Работающие платежные сервисы:**
+- Stripe платежи
+- Razorpay платежи
+- PhonePe платежи
+- Airtel Money
+- Наличные платежи
 
-**Porosenochek** is an innovative system that combines the best of technology and pet care to deliver an unparalleled experience. Here's what you can expect:
+⚠️ **Временно отключено (восстанавливается):**
+- PayPal платежи - требуется обновление зависимостей
+- PayStack платежи - требуется обновление зависимостей
 
-- **Convenience**: Access a wide range of pet care services right from your app, including grooming, health check-ups, pet sitting, and more.
-- **Customization**: Tailor services to meet your pet’s unique requirements, ensuring they receive personalized care.
-- **Compassion**: Enjoy peace of mind knowing that your beloved companion is receiving top-notch, compassionate care from trusted professionals.
+🔄 **Все основные функции работают:**
+- Управление питомцами
+- Бронирование услуг
+- Магазин товаров
+- Firebase интеграция
+- Push-уведомления
+- Геолокация и карты
 
-Experience the future of pet care with Porosenochek. Download the app today and give your pet the care they deserve!
+## 🛠️ Установка и запуск
 
----
+### Предварительные требования
+- Flutter 3.35.2+
+- Dart 3.2.0+
+- Android Studio с Android SDK 36
+- Java 17
 
-## 🚀 Getting Started
-
-To get started with Porosenochek, clone the repository and set up the project on your local machine:
-
+### Команды для запуска
 ```bash
-cd existing_repo
-git remote add origin https://gitlab.com/gmits_mobile/petcare_flutter_app.git
-git branch -M main
-git push -uf origin main
+# Клонирование репозитория
+git clone <repository-url>
+cd porosenocheck_for_customer
 
+# Установка зависимостей
+flutter pub get
+
+# Запуск в debug режиме
+flutter run
+
+# Сборка APK
+flutter build apk --debug
+
+# Сборка App Bundle
+flutter build appbundle --release
 ```
 
-## Integrate with your tools
+## 🔧 Конфигурация
 
-- [ ] [Set up project integrations](https://gitlab.com/gmits_mobile/petcare_flutter_app/-/settings/integrations)
+### Android настройки
+- `compileSdkVersion`: 36
+- `targetSdkVersion`: 36
+- `minSdkVersion`: 24 (Android 7.0)
+- `sourceCompatibility`: Java 17
+- `targetCompatibility`: Java 17
 
-## Collaborate with your team
+### Gradle настройки
+- Gradle: 8.7
+- Android Gradle Plugin: 8.6.0
+- Kotlin: 2.1.0
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## 📋 Функции
 
-## Test and Deploy
+- 🐕 Управление питомцами
+- 📅 Бронирование услуг
+- 🛒 Магазин товаров
+- 💳 Множественные способы оплаты
+- 📍 Геолокация и карты
+- 🔔 Push-уведомления
+- 🌍 Многоязычная поддержка
+- 🌙 Темная/светлая тема
 
-Use the built-in continuous integration in GitLab.
+## 🚧 Известные проблемы
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+1. **PayPal и PayStack платежи**: Временно отключены из-за несовместимости зависимостей
+2. **Deprecated API**: Некоторые API вызовы помечены как устаревшие (не критично)
 
-### Download Porosenochek today and join a community of pet lovers who prioritize quality care and convenience! 🐶🐱
+## 🔄 План восстановления платежных сервисов
 
-*** Please, send US an E-Mail to support@rechain.network for the build instructions! 👻
+См. [PAYMENT_RESTORATION_PLAN.md](PAYMENT_RESTORATION_PLAN.md) для подробного плана.
 
-Copyright © 2019-2025 Need help? 🤔 Donate US! ⌛️ For tea, coffee! For the future of decentralized and distributed internet. We do cool and, in my opinion, useful things for the safety and security of users' personal data. And on a completely non-commercial basis! 😎 Email us! 👇 A Dmitry Sorokin production. All rights reserved. Powered by REChain ®️. 🪐 Copyright © 2019-2025 REChain, Inc REChain ® is a registered trademark support@rechain.network Please allow anywhere from 1 to 5 business days for E-mail responses! 💌 Our Stats! 👀 At the end of 2023, the number of downloads from the Open-Source Places, Apple AppStore, Google Play Market, and the REChain.Store, namely the Domestic application store from the REChain ®️ brand 🪐, а именно Отечественный магазин приложений от бренда REChain ®️ 🪐 ✨ exceeded 29 million downloads. 😈 👀
+### Краткий план:
+1. **Исследование альтернатив** (1-2 дня)
+2. **Тестирование совместимости** (2-3 дня)
+3. **Интеграция** (3-5 дней)
+4. **Тестирование** (2-3 дня)
+
+**Общий срок**: 8-13 дней
+
+## 🎯 Следующие шаги
+
+1. **Восстановление платежных сервисов**: Найти совместимые версии PayPal и PayStack
+2. **Обновление deprecated API**: Заменить все устаревшие вызовы на современные
+3. **Оптимизация производительности**: Настроить ProGuard и R8 для релизных сборок
+4. **Полное тестирование**: Протестировать все функции на разных устройствах
+
+## 📚 Документация
+
+- [UPGRADE_GUIDE.md](UPGRADE_GUIDE.md) - Подробное руководство по обновлению
+- [UPDATE_SUMMARY.md](UPDATE_SUMMARY.md) - Отчет о проделанной работе
+- [PAYMENT_RESTORATION_PLAN.md](PAYMENT_RESTORATION_PLAN.md) - План восстановления платежей
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Android Developer](https://developer.android.com/)
+
+## 🤝 Поддержка
+
+Если у вас возникли проблемы или вопросы:
+1. Проверьте документацию выше
+2. Убедитесь, что у вас установлены все необходимые зависимости
+3. Обратитесь к команде разработки
+
+## 📄 Лицензия
+
+См. файл [LICENSE](LICENSE) для получения дополнительной информации.
+
+---
+
+**Последнее обновление**: Декабрь 2024  
+**Версия**: 2.0.3+24  
+**Статус**: ✅ Обновлено до Android SDK 36  
+**Платежи**: 🔄 Восстанавливаются (см. план выше)

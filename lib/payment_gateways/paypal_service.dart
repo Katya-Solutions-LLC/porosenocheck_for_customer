@@ -1,55 +1,25 @@
-import 'package:flutter/foundation.dart';
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
-import 'package:flutter_paypal_checkout/flutter_paypal_checkout.dart';
-import 'package:get/get.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:porosenocheck/utils/app_common.dart';
+import '../../configs.dart';
+import '../../utils/constants.dart';
 
 class PayPalService {
-  static Future paypalCheckOut({required BuildContext context, required num totalAmount, required Function(Map<String, dynamic>) onComplete, required Function(bool) loderOnOFF}) async {
-    loderOnOFF(true);
-    String payPalClientId = appConfigs.value.paypalPay.paypalClientid;
-    String secretKey = appConfigs.value.paypalPay.paypalSecretkey;
-    log('PAYPALCLIENTID: $payPalClientId');
-    log('SECRETKEY: $secretKey');
-    PaypalCheckout(
-      sandboxMode: !kReleaseMode || isporosenocheckProduct,
-      clientId: payPalClientId,
-      secretKey: secretKey,
-      returnURL: "junedr375.github.io/junedr375-payment/",
-      cancelURL: "junedr375.github.io/junedr375-payment/error.html",
-      transactions: [
-        {
-          "amount": {
-            "total": totalAmount,
-            "currency": appCurrency.value.currencyCode,
-            "details": {"subtotal": totalAmount, "shipping": '0', "shipping_discount": 0}
-          },
-          "description": 'Name: ${loginUserData.value.userName} - Email: ${loginUserData.value.email}',
-        }
-      ],
-      note: " - ",
-      onSuccess: (Map params) async {
-        log("onSuccess: $params");
-        loderOnOFF(false);
-        if (params['message'] is String) {
-          toast(params['message']);
-        }
-        onComplete.call({
-          'transaction_id': params['data']['id'],
-        });
-      },
-      onError: (error) {
-        log("onError: $error");
-        loderOnOFF(false);
-        toast(error);
-        Get.back();
-      },
-      onCancel: (params) {
-        log("cancelled: $params");
-        toast('cancelled');
-        loderOnOFF(false);
-      },
-    ).launch(context).whenComplete(() => loderOnOFF(false));
+  static Future<void> paypalCheckOut({
+    required BuildContext context,
+    required num totalAmount,
+    required Function(Map<String, dynamic>) onComplete,
+    required Function(bool) loderOnOFF,
+  }) async {
+    // Временно отключено - требуется обновление зависимостей
+    toast("PayPal payment temporarily unavailable - updating dependencies");
+    loderOnOFF(false);
+    
+    // TODO: Восстановить после обновления зависимостей
+    // onComplete.call({
+    //   'transaction_id': 'paypal_placeholder_${DateTime.now().millisecondsSinceEpoch}',
+    // });
   }
 }

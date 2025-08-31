@@ -153,6 +153,9 @@ class PaymentController extends GetxController {
   }
 
   payWithPaypal(BuildContext context) {
+    // Временно отключено из-за проблем с зависимостями
+    toast("PayPal payment temporarily unavailable");
+    /*
     isLoading(true);
     PayPalService.paypalCheckOut(
       context: context,
@@ -164,6 +167,7 @@ class PaymentController extends GetxController {
         savePaymentApi(bid: isFromBookingDetail && bid.validate() > 0 ? bid.validate() : saveBookingRes.value.bookingId, paymentType: PaymentMethods.PAYMENT_METHOD_PAYPAL, txnId: res["transaction_id"], paymentStatus: 1);
       },
     );
+    */
   }
 
   payWithPayStack() async {

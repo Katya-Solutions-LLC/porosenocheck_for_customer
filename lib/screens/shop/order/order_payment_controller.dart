@@ -121,6 +121,9 @@ class OrderPaymentController {
   }
 
   payWithPaypal(BuildContext context) {
+    // Временно отключено из-за проблем с зависимостями
+    toast("PayPal payment temporarily unavailable");
+    /*
     isLoading(true);
     PayPalService.paypalCheckOut(
       context: context,
@@ -132,6 +135,7 @@ class OrderPaymentController {
         placeOrder(paymentType: PaymentMethods.PAYMENT_METHOD_PAYPAL, txnId: res["transaction_id"], paymentStatus: PaymentStatus.PAID);
       },
     );
+    */
   }
 
   payWithPayStack(BuildContext context) async {

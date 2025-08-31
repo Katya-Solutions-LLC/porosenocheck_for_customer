@@ -29,7 +29,6 @@ class FlutterWaveService {
     String transactionId = const Uuid().v1();
 
     Flutterwave flutterWave = Flutterwave(
-      context: getContext,
       publicKey: appConfigs.value.flutterwavePay.flutterwavePublickey,
       currency: appCurrency.value.currencyCode,
       redirectUrl: BASE_URL,
@@ -41,7 +40,7 @@ class FlutterWaveService {
       isTestMode: isTestMode,
     );
 
-    await flutterWave.charge().then((value) {
+    await flutterWave.charge(ctx).then((value) {
       if (value.status == "successful") {
         verifyPayment(
           transactionId: value.transactionId.validate(),
