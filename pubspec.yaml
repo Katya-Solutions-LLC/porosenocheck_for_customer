@@ -35,7 +35,7 @@ dependencies:
   googleapis: ^13.1.0
   googleapis_auth: ^1.6.0
   extension_google_sign_in_as_googleapis_auth: ^2.0.12
-  permission_handler: ^11.3.1
+  permission_handler: ^12.0.1
 
   # State Management
   get: ^4.6.6  # Notification
@@ -70,7 +70,7 @@ dependencies:
   #intent
   android_intent_plus: ^5.0.2
 
-  datepicker_dropdown: ^0.1.1+1
+  datepicker_dropdown: ^1.0.1
   file_picker: ^8.0.5
   image_picker: ^1.1.2
   country_picker: ^2.0.26
